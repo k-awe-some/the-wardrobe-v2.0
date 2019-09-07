@@ -4,10 +4,10 @@
 
 ## Description
 
-Created with **React.js** and hosted on **Firebase**, this version manages the state of _cart_ & _directory_ using **React-Redux.js**, and _user_ & _shop data_ through Firebase Firestore. It allows online customers to create accounts through **Firebase Authentication & Database** services. **[Stripe API](https://stripe.com)** is also implemented to handle card payments (which currently can be tested out using the default credit card provided upon checking out).
+Created with **React.js** and hosted on **Firebase**, the current version of this web app manages the state of _cart_ & _directory_ using **React-Redux.js**, and _user_ & _shop data_ through **Firebase Firestore**. It allows online customers to either sign in with their Google account or sign up with email and password, which is powered by **Firebase Authentication** & **Database** services. **[Stripe API](https://stripe.com)** is also implemented to handle card payments (which currently can be tested out using the default credit card provided upon checking out).
 
-Improvements from [the previous version](https://github.com/k-awe-some/the-wardrobe-v1.0) include:
-- Implementation of [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+Improvements from [version 1.0](https://github.com/k-awe-some/the-wardrobe-v1.0) include:
+- Implementation of **Redux Thunk**
 - Code Refactoring
 
 ## Technologies - Frameworks - Libraries
@@ -21,6 +21,7 @@ This web app is created with:
 - [Reselect](https://github.com/reduxjs/reselect) version 4.0.0
 - [Firebase](https://firebase.google.com) version 6.4.2
 - [React Stripe Checkout](https://github.com/azmenak/react-stripe-checkout) version 2.6.3
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk) version 2.3.0
 
 ## Contributing
 
