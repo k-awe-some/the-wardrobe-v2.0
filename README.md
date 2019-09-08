@@ -9,7 +9,7 @@ The Wardrobe is an e-commerce store that sells clothing and accessories.
 Created with **React.js** and hosted on **Firebase**, the current version of this web app manages the state of _cart_ & _directory_ using **React-Redux.js**, and _user_ & _shop data_ through **Firebase Firestore**. It allows online customers to either sign in with their Google account or sign up with email and password, which is powered by **Firebase Authentication** & **Database** services. **[Stripe API](https://stripe.com)** is also implemented to handle card payments (which currently can be tested out using the default credit card provided upon checking out).
 
 Improvements from [version 1.0](https://github.com/k-awe-some/the-wardrobe-v1.0) include:
-- Implementation of **Redux Thunk**
+- Implementation of **Redux Thunk** to handle asynchronous actions
 - Code Refactoring
 
 ## Technologies - Frameworks - Libraries
@@ -20,10 +20,10 @@ This web app is created with:
 - [React Router DOM](https://reacttraining.com/react-router/) version 5.0.1
 - [React-Redux.js](https://react-redux.js.org) version 7.1.0
 - [Redux Persist](https://github.com/rt2zz/redux-persist) version 5.10.0
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk) version 2.3.0
 - [Reselect](https://github.com/reduxjs/reselect) version 4.0.0
 - [Firebase](https://firebase.google.com) version 6.4.2
 - [React Stripe Checkout](https://github.com/azmenak/react-stripe-checkout) version 2.6.3
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk) version 2.3.0
 
 ## Contributing
 
